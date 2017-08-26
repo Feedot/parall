@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+section{
+    height: 100vh;
+    background: #666;
+    position: relative;
+    overflow: hidden;
+}
+.sect_1{
+    background:url("https://www.look.com.ua/large/201308/75015.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+header{
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -120px;
+    margin-top: -20px;
+    text-align: center;
+}
+.sect_2 img{
+    position: absolute;
+    width: 100%;
+    top: -300px;
+}
+@media screen and (max-width: 1200px){
+    .sect_2 img{
+        top:-240px;
+    }
+}
+@media screen and (max-width: 960px){
+    .sect_2 img{
+        top:-200px;
+    }
+}
+@media screen and (max-width: 740px){
+    .sect_2 img{
+        top:-150px;
+    }
+}
+@media screen and (max-width: 480px){
+    .sect_2 img{
+        top:-100px;
+    }
+}
