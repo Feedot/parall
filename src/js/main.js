@@ -9,6 +9,4 @@ window.onload=function () {
             "transform":"translate(0%," + scrollTop/20 + '%'
         });
     })
-    console.log(document.images);
-
 }
